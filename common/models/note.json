@@ -1,5 +1,5 @@
 {
-  "name": "Note",
+  "name": "note",
   "base": "PersistedModel",
   "properties": {
     "value": {
