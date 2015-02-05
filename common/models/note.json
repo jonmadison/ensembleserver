@@ -1,0 +1,22 @@
+{
+  "name": "Note",
+  "base": "PersistedModel",
+  "properties": {
+    "value": {
+      "type": "number",
+      "required": true
+    },
+    "time": {
+      "type": "date",
+      "required": true
+    },
+    "sensor_type": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
