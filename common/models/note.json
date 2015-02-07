@@ -2,6 +2,10 @@
   "name": "Note",
   "base": "PersistedModel",
   "properties": {
+    "composition_id": {
+      "type": "number",
+      "required": true
+    },
     "value": {
       "type": "number",
       "required": true
@@ -16,7 +20,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "composition": {
+      "model":"composition",
+      "type": "belongsTo",
+      "foreignKey": "composition_id"
+    }
+  },
   "acls": [],
   "methods": []
 }

@@ -31,5 +31,9 @@
   "Sensor": {
     "dataSource": "db",
     "public": true
+  },
+  "Composition": {
+    "dataSource": "db",
+    "public": true
   }
 }

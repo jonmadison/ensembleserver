@@ -1,17 +1,14 @@
 {
-  "name": "Sensor",
+  "name": "Composition",
   "base": "PersistedModel",
   "properties": {
-    "type": {
-      "type": "string",
-      "required": true
-    },
     "name": {
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "string"
+    "created_by": {
+      "type": "number",
+      "required": true
     }
   },
   "validations": [],
