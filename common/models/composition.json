@@ -6,13 +6,23 @@
       "type": "string",
       "required": true
     },
+    "tempo": {
+      "type": "number",
+      "required": true
+    },
     "created_by": {
       "type": "number",
       "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "notes": {
+      "type":"hasMany",
+      "model":"Note",
+      "foreignKey": "note_id"
+    }
+   },
   "acls": [],
   "methods": []
 }
