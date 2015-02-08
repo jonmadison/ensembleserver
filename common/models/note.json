@@ -6,10 +6,6 @@
       "type": "number",
       "required": true
     },
-    "composition_id": {
-      "type": "number",
-      "required": true
-    },
     "value": {
       "type": "number",
       "required": true
