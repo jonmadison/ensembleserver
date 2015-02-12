@@ -1,7 +1,0 @@
-{
-  "db": {
-      "name": "compositionserver",
-      "connector": "mongodb",
-      "url": "mongodb://heroku_app33729947:2orvm4670q0vasrj8uvqe34b40@ds041851.mongolab.com:41851/heroku_app33729947"
-  }
-}
